@@ -1,0 +1,91 @@
+/* AdminLogin.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.admin-login-wrapper {
+  background-image: url('../assets/images/laptop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 246%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.admin-login-box {
+  background: rgba(255, 255, 255, 0.15); /* clearer glass */
+  border-radius: 16px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #000;
+  text-align: center;
+}
+
+.admin-login-box h2 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.admin-login-box input {
+  width: 100%;
+  padding: 12px 5px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.admin-login-box input::placeholder {
+  color: rgba(0, 0, 0, 0.6); /* Better contrast */
+  font-weight: 500;
+}
+
+.admin-login-box input:focus {
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid #80dfff;
+}
+
+.admin-login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #1d1920, #07204d);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-login-box button:hover {
+  background: linear-gradient(45deg, #ff416c, #1a1616);
+  transform: scale(1.03);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
